@@ -6,7 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Tour of Heroes';
+  title = 'Caterin - discover a new way of ordering food.';
+  description = 'Welcome to Caterin, where we help ordering quiality authentic food using AI.';
 }
 
 
