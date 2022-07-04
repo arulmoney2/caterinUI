@@ -12,15 +12,16 @@ const routes: Routes = [
   { path: 'dashboard', component: DashboardComponent },
   { path: 'detail/:id', component: HeroDetailComponent },
   { path: 'heroes', component: HeroesComponent },
-  { path: 'partyplanner', component: PartyPlannerComponent },
-  { path: 'localchef', component: LocalChefComponent },
+  { path: 'partyplanner', component: PartyPlannerComponent},
+  { path: 'localchef', component: LocalChefComponent }
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule],
+  imports: [ RouterModule.forRoot(routes) ],
+  exports: [ RouterModule ]
 })
 export class AppRoutingModule {}
+
 
 /*
 Copyright Google LLC. All Rights Reserved.
